@@ -1,33 +1,35 @@
 import React from "react"
+import "./Control.css"
 
 function Control(props) {
-    console.log(props)
+    console.log("inside control component", props)
+    const { feature } = props
     return(
         <div className="control-container">
-            <div>
+            <div className="individual-container">
                 <div>
                     <p>x</p>
-                    <p>{xValue}</p>
+                    <p>{feature.control.x}</p>
                 </div>
             </div>
             <div>
                 <div>
                     <p>y</p>
-                    <p>{yValue}</p>
+                    <p>{feature.control.y}</p>
                 </div>
             </div>
             <div>
                 <div>
                     <p>z</p>
                     <p>
-                        {zValue}
+                        {feature.control.z}
                     </p>
                 </div>
             </div>
             <div>
                 <div>
                     <p>diameter</p>
-                    <p>{dValue}</p>
+                    <p>{feature.control.diameter}</p>
                 </div>
             </div>
         </div>

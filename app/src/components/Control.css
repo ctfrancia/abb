@@ -1,0 +1,10 @@
+.control-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.individual-container{
+    display: flex;
+}
