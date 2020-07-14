@@ -5,6 +5,7 @@
 - while in `server` folder: `$ touch .env` to make sure you have an env file
 - while in the `server` folder: `$ yarn run start:watch` or `$ npm run start:watch` to start the server
 - while in the `app` folder: `$ yarn start` or `$ npm start` to launch the front end
+- Make sure you have typescript globally installed just to avoid issues with your IDE
 
 # Roadmap
 1. Add typescript to Front-End
