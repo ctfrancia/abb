@@ -1,8 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Control from"./components/control"
+import { getFeatureData } from "./utils/api"
 
 function App() {
+
+  let featureName
+  useEffect(() => {
+      featureData = await getFeatureData()
+  }, [])
+  return (
+    <div className="app-container">
+      <div className={featureName}>
+        <Control data={featureData} />
+      </div>
+    </div>
+  )
+  /*
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +36,7 @@ function App() {
       </header>
     </div>
   );
+  */
 }
 
 export default App;

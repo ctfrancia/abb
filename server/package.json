@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/koa-router": "^7.4.1",
     "eslint": "^7.4.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
@@ -8,12 +9,13 @@
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-cors": "^0.0.16",
-    "koa-logger": "^3.2.1"
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.1.0"
   },
-	  "scripts": {
-			"start": "node --inspect=5858 -r ts-node/register ./src/index.ts",
-			"start:watch": "nodemon",
-			"build": "tsc",
-			"lint": "eslint . --ext .ts"
+  "scripts": {
+    "start": "node --inspect=5858 -r ts-node/register ./src/index.ts",
+    "start:watch": "nodemon",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
   }
 }
