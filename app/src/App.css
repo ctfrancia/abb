@@ -1,4 +1,4 @@
-.header {
+.labels{
   display: flex;
   justify-content: space-between;
   margin: 0 10px;
@@ -8,10 +8,17 @@
   background-color: green;
 }
 
-.bad {
+.error {
   background-color: red;
 }
 
 .caution {
   background-color: yellow;
+}
+
+.feature-name {
+  background-color: green;
+  color: white;
+  margin: 5px;
+  padding: 5px;
 }

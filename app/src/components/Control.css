@@ -8,3 +8,28 @@
 .individual-container{
     display: flex;
 }
+
+.meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circle-good {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+.circle-error {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle-caution {
+    height: 15px;
+    width: 15px; 
+    border-radius: 50%;
+    background-color: yellow;
+}

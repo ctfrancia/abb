@@ -5,9 +5,16 @@ export interface Measurement {
 }
 
 interface Control {
-    x: string,
-    y: string,
-    z: string,
+    x: MetaData,
+    y: MetaData,
+    z: MetaData,
     length: string,
     diameter: string,
+}
+
+interface MetaData {
+    dev: string,
+    devOutTotal: string,
+    status: string, // ok, caution, error
+
 }

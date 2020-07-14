@@ -4,9 +4,21 @@
             "part": "arm",
             "feature": "Seam",
             "control": {
-                "x": "12cm",
-                "y": "10cm",
-                "z": "2cm",
+                "x": {
+                    "dev": "12cm",
+                    "devOutTotal": "0cm",
+                    "status": "ok"
+                },
+                "y": {
+                    "dev": "10cm",
+                    "devOutTotal": "0cm",
+                    "status": "error"
+                },
+                "z": {
+                    "dev": "2cm",
+                    "devOutTotal": "0cm",
+                    "status": "caution"
+                },
                 "length": "10cm",
                 "diameter": "22.33cm"
             }
@@ -15,9 +27,21 @@
             "part": "piece",
             "feature": "Slot",
             "control": {
-                "x": "1cm",
-                "y": "2cm",
-                "z": "5cm",
+                "x": {
+                    "dev": "22cm",
+                    "devOutTotal": "0cm",
+                    "status": "caution"
+                },
+                "y": {
+                    "dev": "1cm",
+                    "devOutTotal": "0cm",
+                    "status": "ok"
+                },
+                "z": {
+                    "dev": "12cm",
+                    "devOutTotal": "0cm",
+                    "status": "error"
+                },
                 "length": "15cm",
                 "diameter": "21.22cm"
             }
