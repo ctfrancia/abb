@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "part": "arm",
+            "feature": "Seam",
+            "control": {
+                "x": "12cm",
+                "y": "10cm",
+                "z": "2cm",
+                "length": "10cm",
+                "diameter": "22.33cm"
+            }
+        },
+        {
+            "part": "piece",
+            "feature": "Slot",
+            "control": {
+                "x": "1cm",
+                "y": "2cm",
+                "z": "5cm",
+                "length": "15cm",
+                "diameter": "21.22cm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "./src/**/*", "__tests__/user.spec.ts",
+        "./src/**/*", "__tests__/user.spec.js"
+    ]
+}

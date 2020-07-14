@@ -1,11 +1,19 @@
 {
+  "name": "abb",
+  "version": "1.0.0",
+  "description": "ABB Coding challenge",
+  "main": "index.js",
   "devDependencies": {
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-cors": "^0.0.0",
+    "@types/koa-logger": "^3.1.1",
     "@types/koa-router": "^7.4.1",
     "eslint": "^7.4.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-cors": "^0.0.16",
@@ -17,5 +25,29 @@
     "start:watch": "nodemon",
     "build": "tsc",
     "lint": "eslint . --ext .ts"
-  }
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ],
+    "exec": "yarn start",
+    "ext": "ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctfrancia/abb.git"
+  },
+  "keywords": [],
+  "author": "Christian Francia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctfrancia/abb/issues"
+  },
+  "homepage": "https://github.com/ctfrancia/abb#readme"
 }
